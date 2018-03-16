@@ -1,0 +1,30 @@
+{
+  "name": "haassie/cms8",
+  "description": "Demo environment for Yoast SEO for TYPO3",
+  "type": "project",
+  "version": "8",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.typo3.org/"
+    }
+  ],
+  "require": {
+    "typo3/cms": "^8",
+    "dmitryd/typo3-realurl": "^2.3"
+  },
+  "config": {
+    "vendor-dir": "Web/Packages/Libraries"
+  },
+  "autoload": {
+    "psr-4": {
+      "MaxServ\\SiteCms8\\": "Web/typo3conf/ext/site_cms8/Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "cms-package-dir": "{$vendor-dir}/typo3/cms",
+      "web-dir": "Web"
+    }
+  }
+}
