@@ -8,10 +8,13 @@ picture_library/
 plesk-stat/
 xcacheadmin/
 .ssh/
+/Web/typo3temp/
+/Web/fileadmin
 /Web/uploads/
 /Web/Packages/
 /Web/typo3
 /Web/index.php
+/Web/typo3conf/l10n
 /Web/typo3conf/ext/*
 .idea/
 nbproject/private/
