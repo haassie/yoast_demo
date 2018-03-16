@@ -1,0 +1,32 @@
+
+# Ignore several file/path patterns such as IDE specific files
+
+/cgi-bin
+vendor/
+xcache/
+picture_library/
+plesk-stat/
+xcacheadmin/
+.ssh/
+/Web/uploads/
+/Web/Packages/
+/Web/typo3
+/Web/index.php
+/Web/typo3conf/ext/*
+.idea/
+nbproject/private/
+nbproject/
+**/*.log
+**/*temp_*
+**/*Copy of*
+/.project
+/.buildpath
+/.settings
+/.bash_history
+/.viminfo
+._*
+/atlassian-ide-plugin.xml
+.DS_Store
+composer.lock
+
+!/Web/typo3conf/ext/site_cms8
