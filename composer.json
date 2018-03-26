@@ -11,14 +11,15 @@
   ],
   "require": {
     "typo3/cms": "^8",
-    "dmitryd/typo3-realurl": "^2.3"
+    "dmitryd/typo3-realurl": "^2.3",
+    "yoast-seo-for-typo3/yoast_seo": "^2.1"
   },
   "config": {
     "vendor-dir": "Web/Packages/Libraries"
   },
   "autoload": {
     "psr-4": {
-      "MaxServ\\SiteCms8\\": "Web/typo3conf/ext/site_cms8/Classes/"
+      "Haassie\\SiteCms8\\": "Web/typo3conf/ext/site_cms8/Classes/"
     }
   },
   "extra": {

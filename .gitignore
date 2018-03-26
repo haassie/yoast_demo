@@ -15,6 +15,9 @@ xcacheadmin/
 /Web/typo3
 /Web/index.php
 /Web/typo3conf/l10n
+/Web/typo3conf/realurl_autoconf.php
+/Web/typo3conf/ENABLE_INSTALL_TOOL
+/Web/FIRST_INSTALL
 /Web/typo3conf/ext/*
 .idea/
 nbproject/private/
