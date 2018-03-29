@@ -9,15 +9,13 @@ class RealUrlAutoConfiguration
             $params['config'],
             [
                 'preVars' => [
-                    '_DEFAULT' => [
-                        'yoast' => [
-                            'GETvar' => 'L',
-                            'valueMap' => [
-                                'nl' => 1,
-                                'de' => 2
-                            ],
-                            'noMatch' => 'bypass'
-                        ]
+                    'site_cms8' => [
+                        'GETvar' => 'L',
+                        'valueMap' => [
+                            'nl' => 1,
+                            'de' => 2
+                        ],
+                        'noMatch' => 'bypass'
                     ]
                 ]
             ]
