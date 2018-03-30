@@ -1,0 +1,7 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:news/Configuration/TypoScript/setup.txt">
+
+plugin.tx_news {
+    settings {
+        defaultDetailPid = 13
+    }
+}

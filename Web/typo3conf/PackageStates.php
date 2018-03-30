@@ -119,6 +119,9 @@ return [
         'viewpage' => [
             'packagePath' => 'typo3/sysext/viewpage/',
         ],
+        'news' => [
+            'packagePath' => 'typo3conf/ext/news/',
+        ],
         'realurl' => [
             'packagePath' => 'typo3conf/ext/realurl/',
         ],

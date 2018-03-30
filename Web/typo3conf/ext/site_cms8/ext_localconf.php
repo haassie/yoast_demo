@@ -11,7 +11,7 @@
 );
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('
-    <INCLUDE_TYPOSCRIPT: source="FILE:EXT:site_cms8/Configuration/TSconfig/Page/mod.shared.txt">
+    <INCLUDE_TYPOSCRIPT: source="FILE:EXT:site_cms8/Configuration/TSconfig/Root.typoscript">
     ');
 
 if (\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('realurl')) {
