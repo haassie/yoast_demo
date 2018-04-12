@@ -8,7 +8,9 @@ $EM_CONF['site_cms8'] = [
     'author_email' => 'richardhaeser@gmail.com',
     'version' => '',
     'constraints' => [
-        'depends' => [],
+        'depends' => [
+            'yoast_seo' => ''
+        ],
         'conflicts' => [],
         'suggests' => []
     ],

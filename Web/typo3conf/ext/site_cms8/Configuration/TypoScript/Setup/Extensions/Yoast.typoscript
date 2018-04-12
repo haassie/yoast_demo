@@ -1,0 +1,17 @@
+plugin.tx_yoastseo {
+    sitemap {
+        view {
+            partialRootPaths {
+                10 = EXT:site_cms8/Resources/Private/Partials/Yoast/SitemapXml
+            }
+        }
+
+        config {
+            news {
+                table = tx_news_domain_model_news
+                pid = 11
+                sortField = datetime DESC
+            }
+        }
+    }
+}

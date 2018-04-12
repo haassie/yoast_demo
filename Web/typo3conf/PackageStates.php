@@ -119,17 +119,14 @@ return [
         'viewpage' => [
             'packagePath' => 'typo3/sysext/viewpage/',
         ],
-        'news' => [
-            'packagePath' => 'typo3conf/ext/news/',
-        ],
-        'realurl' => [
-            'packagePath' => 'typo3conf/ext/realurl/',
+        'yoast_seo' => [
+            'packagePath' => 'typo3conf/ext/yoast_seo/',
         ],
         'site_cms8' => [
             'packagePath' => 'typo3conf/ext/site_cms8/',
         ],
-        'yoast_seo' => [
-            'packagePath' => 'typo3conf/ext/yoast_seo/',
+        'realurl' => [
+            'packagePath' => 'typo3conf/ext/realurl/',
         ],
     ],
     'version' => 5,

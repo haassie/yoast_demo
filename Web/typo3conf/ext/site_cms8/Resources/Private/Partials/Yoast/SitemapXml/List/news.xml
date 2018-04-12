@@ -1,0 +1,4 @@
+<url>
+    <loc><f:uri.page pageUid="13" additionalParams="{tx_news_pi1: {news: doc.uid}}" absolute="1" noCacheHash="1" /></loc>
+    <lastmod>{doc.tstamp -> f:format.date(format: 'c')}</lastmod>
+</url>
