@@ -20,12 +20,6 @@ return [
         'install' => [
             'packagePath' => 'typo3/sysext/install/',
         ],
-        'frontend' => [
-            'packagePath' => 'typo3/sysext/frontend/',
-        ],
-        'fluid_styled_content' => [
-            'packagePath' => 'typo3/sysext/fluid_styled_content/',
-        ],
         'info' => [
             'packagePath' => 'typo3/sysext/info/',
         ],
@@ -89,6 +83,9 @@ return [
         'form' => [
             'packagePath' => 'typo3/sysext/form/',
         ],
+        'frontend' => [
+            'packagePath' => 'typo3/sysext/frontend/',
+        ],
         'impexp' => [
             'packagePath' => 'typo3/sysext/impexp/',
         ],
@@ -119,11 +116,17 @@ return [
         'viewpage' => [
             'packagePath' => 'typo3/sysext/viewpage/',
         ],
+        'bootstrap_package' => [
+            'packagePath' => 'typo3conf/ext/bootstrap_package/',
+        ],
         'yoast_seo' => [
             'packagePath' => 'typo3conf/ext/yoast_seo/',
         ],
         'site_cms8' => [
             'packagePath' => 'typo3conf/ext/site_cms8/',
+        ],
+        'news' => [
+            'packagePath' => 'typo3conf/ext/news/',
         ],
         'realurl' => [
             'packagePath' => 'typo3conf/ext/realurl/',

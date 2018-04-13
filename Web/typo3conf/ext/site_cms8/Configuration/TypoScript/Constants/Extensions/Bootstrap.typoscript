@@ -1,0 +1,18 @@
+page {
+    logo {
+        file = EXT:site_cms8/Resources/Public/Images/logo-demo-site.png
+        height = 150
+    }
+
+    theme {
+        language {
+            enable = 0
+        }
+
+        copyright {
+            text = Demo website for Yoast SEO for TYPO3. Built with Bootstrap Package of <a href="http://www.bk2k.info" target="_blank">Benjamin Kott</a>.
+        }
+
+        breadcrumbEnableLevel = 1
+    }
+}

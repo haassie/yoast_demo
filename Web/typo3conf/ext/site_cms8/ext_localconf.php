@@ -1,15 +1,15 @@
 <?php
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTypoScript(
-    'YoastDemo',
-    'constants',
-    '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:site_cms8/Configuration/TypoScript/constants.typoscript">'
-);
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTypoScript(
-    'YoastDemo',
-    'setup',
-    '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:site_cms8/Configuration/TypoScript/setup.typoscript">'
-);
-
+//\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTypoScript(
+//    'YoastDemo',
+//    'constants',
+//    '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:site_cms8/Configuration/TypoScript/constants.typoscript">'
+//);
+//\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTypoScript(
+//    'YoastDemo',
+//    'setup',
+//    '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:site_cms8/Configuration/TypoScript/setup.typoscript">'
+//);
+//
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig('
     <INCLUDE_TYPOSCRIPT: source="FILE:EXT:site_cms8/Configuration/TSconfig/Root.typoscript">
     ');

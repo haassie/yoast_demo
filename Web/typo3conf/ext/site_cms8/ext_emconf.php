@@ -9,6 +9,7 @@ $EM_CONF['site_cms8'] = [
     'version' => '',
     'constraints' => [
         'depends' => [
+            'bootstrap_package' => '',
             'yoast_seo' => ''
         ],
         'conflicts' => [],
