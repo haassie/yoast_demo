@@ -10,5 +10,3 @@ $GLOBALS['TYPO3_CONF_VARS']['DB']['Connections']['Default'] = array_merge($GLOBA
                     'port' => '3306',
                     'user' => 'db',
 ]);
-
-$GLOBALS['TYPO3_CONF_VARS']['SYS']['trustedHostsPattern'] = '.*\.ddev\.local';

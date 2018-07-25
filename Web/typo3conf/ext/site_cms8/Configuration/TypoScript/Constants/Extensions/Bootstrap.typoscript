@@ -6,7 +6,7 @@ page {
 
     theme {
         language {
-            enable = 0
+            enable = 1
         }
 
         copyright {

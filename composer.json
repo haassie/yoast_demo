@@ -4,6 +4,7 @@
   "type": "project",
   "version": "8",
   "repositories": [
+    { "type": "composer", "url": "https://my.yoast.com/packages/" },
     {
       "type": "composer",
       "url": "https://composer.typo3.org/"
@@ -12,9 +13,10 @@
   "require": {
     "typo3/cms": "^8",
     "dmitryd/typo3-realurl": "^2.3",
-    "yoast-seo-for-typo3/yoast_seo": "^2.1",
+    "yoast-seo-for-typo3/yoast_seo": "dev-task/release-3.0 as 2.5",
     "georgringer/news": "^6.3",
-    "bk2k/bootstrap-package": "^9.1"
+    "bk2k/bootstrap-package": "^9.1",
+    "yoast-seo-for-typo3/yoast_seo_premium": "^1.1"
   },
   "config": {
     "vendor-dir": "Web/Packages/Libraries"

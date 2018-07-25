@@ -1,6 +1,6 @@
 TCEMAIN.preview {
     tx_news_domain_model_news {
-        previewPageId = 13
+        previewPageId = 12
         useCacheHash = 1
         useDefaultLanguageRecord = 0
         fieldToParameterMap {

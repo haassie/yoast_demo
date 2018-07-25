@@ -9,8 +9,11 @@ plugin.tx_yoastseo {
         config {
             news {
                 table = tx_news_domain_model_news
-                pid = 11
+                storagePid = 11
                 sortField = datetime DESC
+                detailPid = 12
+                useCacheHash = 1
+                additionalParams = tx_news_pi1[controller]=News&tx_news_pi1[action]=detail&tx_news_pi1[news]
             }
         }
     }
