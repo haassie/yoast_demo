@@ -51,8 +51,6 @@ $llPrefix = 'LLL:EXT:yoast_seo/Resources/Private/Language/BackendModule.xlf:';
     'yoast-metadata',
     '
     --linebreak--, tx_yoastseo_snippetpreview,
-    --linebreak--, alternative_title,
-    --linebreak--, description,
     '
 );
 
@@ -73,16 +71,10 @@ $llPrefix = 'LLL:EXT:yoast_seo/Resources/Private/Language/BackendModule.xlf:';
     '
 );
 
-$GLOBALS['TCA']['tx_news_domain_model_news']['palettes']['metatags']['showitem'] =
-    preg_replace('/description(.*,|.*$)/', '', $GLOBALS['TCA']['tx_news_domain_model_news']['palettes']['metatags']['showitem']);
-
-$GLOBALS['TCA']['tx_news_domain_model_news']['palettes']['alternativeTitles']['showitem'] =
-    preg_replace('/alternative_title(.*,|.*$)/', '', $GLOBALS['TCA']['tx_news_domain_model_news']['palettes']['alternativeTitles']['showitem']);
-
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
     'tx_news_domain_model_news',
     '
-    --div--;' . 'LLL:EXT:yoast_seo/Resources/Private/Language/BackendModule.xlf:pages.tabs.seo,
+    --div--;' . $llPrefix . 'pages.tabs.seo,
         --palette--;' . $llPrefix . 'pages.palettes.metadata;yoast-metadata,
         --palette--;' . $llPrefix . 'pages.palettes.readability;yoast-readability,
         --palette--;' . $llPrefix . 'pages.palettes.seo;yoast-focuskeyword,
