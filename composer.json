@@ -5,6 +5,8 @@
   "version": "8",
   "repositories": [
     { "type": "composer", "url": "https://my.yoast.com/packages/" },
+    { "type": "github", "url": "https://github.com/haassie/yoast_news" },
+    { "type": "git", "url": "git@github.com:Yoast/Yoast-SEO-for-TYPO3-Premium.git" },
     {
       "type": "composer",
       "url": "https://composer.typo3.org/"
@@ -14,8 +16,10 @@
     "typo3/cms": "^8",
     "dmitryd/typo3-realurl": "^2.3",
     "yoast-seo-for-typo3/yoast_seo": "^3.0",
-    "georgringer/news": "^6.3",
-    "bk2k/bootstrap-package": "^9.1"
+    "georgringer/news": "^7.0",
+    "bk2k/bootstrap-package": "^9.1",
+    "haassie/yoast_news": "dev-master",
+    "yoast-seo-for-typo3/yoast_seo_premium": "^1"
   },
   "config": {
     "vendor-dir": "Web/Packages/Libraries"

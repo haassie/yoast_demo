@@ -11,6 +11,9 @@ return [
         'core' => [
             'packagePath' => 'typo3/sysext/core/',
         ],
+        'scheduler' => [
+            'packagePath' => 'typo3/sysext/scheduler/',
+        ],
         'extbase' => [
             'packagePath' => 'typo3/sysext/extbase/',
         ],
@@ -31,6 +34,9 @@ return [
         ],
         'lang' => [
             'packagePath' => 'typo3/sysext/lang/',
+        ],
+        'reports' => [
+            'packagePath' => 'typo3/sysext/reports/',
         ],
         'setup' => [
             'packagePath' => 'typo3/sysext/setup/',
@@ -95,12 +101,6 @@ return [
         'recordlist' => [
             'packagePath' => 'typo3/sysext/recordlist/',
         ],
-        'reports' => [
-            'packagePath' => 'typo3/sysext/reports/',
-        ],
-        'scheduler' => [
-            'packagePath' => 'typo3/sysext/scheduler/',
-        ],
         'sv' => [
             'packagePath' => 'typo3/sysext/sv/',
         ],
@@ -116,11 +116,14 @@ return [
         'viewpage' => [
             'packagePath' => 'typo3/sysext/viewpage/',
         ],
-        'bootstrap_package' => [
-            'packagePath' => 'typo3conf/ext/bootstrap_package/',
+        'realurl' => [
+            'packagePath' => 'typo3conf/ext/realurl/',
         ],
         'yoast_seo' => [
             'packagePath' => 'typo3conf/ext/yoast_seo/',
+        ],
+        'bootstrap_package' => [
+            'packagePath' => 'typo3conf/ext/bootstrap_package/',
         ],
         'site_cms8' => [
             'packagePath' => 'typo3conf/ext/site_cms8/',
@@ -128,8 +131,11 @@ return [
         'news' => [
             'packagePath' => 'typo3conf/ext/news/',
         ],
-        'realurl' => [
-            'packagePath' => 'typo3conf/ext/realurl/',
+        'yoast_news' => [
+            'packagePath' => 'typo3conf/ext/yoast_news/',
+        ],
+        'yoast_seo_premium' => [
+            'packagePath' => 'typo3conf/ext/yoast_seo_premium/',
         ],
     ],
     'version' => 5,
